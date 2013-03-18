@@ -5,7 +5,7 @@
 using namespace std;
 
 int char_after_dot(char*);
-void insert_dot(char*, char*);
+void insert_dot(char*);
 bool is_nonterminal(char); 
 
 class group
@@ -30,11 +30,16 @@ class group
         strcpy(productions[group_prod_count], prod);
         group_prod_count++;
     }
-    void closure(char* given_prods, int given_prods_count)
+    void closure(char given_prods[100][100], int given_prods_count)
     {
+        printf("\nProds are : ");
+        for (int i=0; i<given_prods_count; i++)
+            printf("%s", given_prods[i]);
         bool already_there;
         for (int i=0; i<group_prod_count; i++)
         {
+            
+            printf("Taking %s", productions[i]);
             int next_char_loc;
             next_char_loc = char_after_dot(productions[i]);
             already_there = false;
@@ -45,20 +50,22 @@ class group
                     if (added[k] == productions[i][next_char_loc])
                         already_there = true;
                 }
-                if (already_there) break;
+                if (already_there) continue;
                 for (int k=0; k<given_prods_count; k++)
                 {
                     printf("Considering %s", given_prods[k]);
                     if (productions[i][next_char_loc] == given_prods[k][0])
                     {
+                        //if (given_prods[k] == productions[i]) break;
                         add_prod(given_prods[k]);
-                        printf("\nadded : %s", given_prods[k]);
+                        group_prod_count++;
+                        printf("added : %s", given_prods[k]);
                     }
                 }
                 int l;
                 for (l=0; added[l] != '0'; l++);
                 added[l] = productions[i][next_char_loc];
-                printf("\n%c is new!\n", productions[i][next_char_loc]);
+                printf("%c is new!\n", productions[i][next_char_loc]);
             }
          }
      } 
@@ -82,13 +89,11 @@ int char_after_dot(char* production)
 }
 
 //Takes old_prod, adds a '.' to the 3rd location, and puts it into new_prod
-void insert_dot(char* old_prod, char* new_prod)     
+void insert_dot(char* old_prod)     
 {
-    strcpy(new_prod, old_prod);
-    for (int j=100; j>3; j--)
-        new_prod[j] = new_prod[j-1];
-    new_prod[3] = '.';
-    return;
+    for (int j=99; j>3; j--)
+        old_prod[j] = old_prod[j-1];
+    old_prod[3] = '.';
 }
 
 bool is_nonterminal(char character)
@@ -137,8 +142,13 @@ int main()
 	    prod_count++;
     }
     
+    
+    
     for (int i=0; i<prod_count; i++)
-        insert_dot(productions[i], productions[i]);
+        insert_dot(productions[i]);
+        
+    for (int i=0; i<prod_count; i++)
+        printf("%s", productions[i]);
      
     //---- Compute Closure(I0) ----
     a[0].set_name("I0");
