@@ -1,0 +1,1173 @@
+
+Item 0 Symbol E
+There are 6 productions
+Copying: E->.E+T
+Copying: E->.T
+Copying: T->.T*F
+Copying: T->.F
+Copying: F->.(E)
+Copying: F->.@
+Before closure:
+Productions in  are : 
+E->E.+T
+Productions in I1 are : 
+E->E.+T
+This is I1
+
+
+Item 0 Symbol +
+There are 6 productions
+Copying: E->.E+T
+Copying: E->.T
+Copying: T->.T*F
+Copying: T->.F
+Copying: F->.(E)
+Copying: F->.@
+Before closure:
+Productions in  are : 
+
+
+
+Item 0 Symbol T
+There are 6 productions
+Copying: E->.E+T
+Copying: E->.T
+Copying: T->.T*F
+Copying: T->.F
+Copying: F->.(E)
+Copying: F->.@
+Before closure:
+Productions in  are : 
+E->T.
+T->T.*F
+Productions in I2 are : 
+E->T.
+T->T.*F
+This is I2
+
+
+Item 0 Symbol *
+There are 6 productions
+Copying: E->.E+T
+Copying: E->.T
+Copying: T->.T*F
+Copying: T->.F
+Copying: F->.(E)
+Copying: F->.@
+Before closure:
+Productions in  are : 
+
+
+
+Item 0 Symbol F
+There are 6 productions
+Copying: E->.E+T
+Copying: E->.T
+Copying: T->.T*F
+Copying: T->.F
+Copying: F->.(E)
+Copying: F->.@
+Before closure:
+Productions in  are : 
+T->F.
+Productions in I3 are : 
+T->F.
+This is I3
+
+
+Item 0 Symbol (
+There are 6 productions
+Copying: E->.E+T
+Copying: E->.T
+Copying: T->.T*F
+Copying: T->.F
+Copying: F->.(E)
+Copying: F->.@
+Before closure:
+Productions in  are : 
+F->(.E)
+Productions in I4 are : 
+F->(.E)
+E->.E+T
+E->.T
+T->.T*F
+T->.F
+F->.(E)
+F->.@
+This is I4
+
+
+Item 0 Symbol )
+There are 6 productions
+Copying: E->.E+T
+Copying: E->.T
+Copying: T->.T*F
+Copying: T->.F
+Copying: F->.(E)
+Copying: F->.@
+Before closure:
+Productions in  are : 
+
+
+
+Item 0 Symbol @
+There are 6 productions
+Copying: E->.E+T
+Copying: E->.T
+Copying: T->.T*F
+Copying: T->.F
+Copying: F->.(E)
+Copying: F->.@
+Before closure:
+Productions in  are : 
+F->@.
+Productions in I5 are : 
+F->@.
+This is I5
+
+
+Item 1 Symbol E
+There are 1 productions
+Copying: E->E.+T
+Before closure:
+Productions in  are : 
+
+
+
+Item 1 Symbol +
+There are 1 productions
+Copying: E->E.+T
+Before closure:
+Productions in  are : 
+E->E+.T
+Productions in I6 are : 
+E->E+.T
+T->.T*F
+T->.F
+F->.(E)
+F->.@
+This is I6
+
+
+Item 1 Symbol T
+There are 1 productions
+Copying: E->E.+T
+Before closure:
+Productions in  are : 
+
+
+
+Item 1 Symbol *
+There are 1 productions
+Copying: E->E.+T
+Before closure:
+Productions in  are : 
+
+
+
+Item 1 Symbol F
+There are 1 productions
+Copying: E->E.+T
+Before closure:
+Productions in  are : 
+
+
+
+Item 1 Symbol (
+There are 1 productions
+Copying: E->E.+T
+Before closure:
+Productions in  are : 
+
+
+
+Item 1 Symbol )
+There are 1 productions
+Copying: E->E.+T
+Before closure:
+Productions in  are : 
+
+
+
+Item 1 Symbol @
+There are 1 productions
+Copying: E->E.+T
+Before closure:
+Productions in  are : 
+
+
+
+Item 2 Symbol E
+There are 2 productions
+Copying: E->T.
+Copying: T->T.*F
+Before closure:
+Productions in  are : 
+
+
+
+Item 2 Symbol +
+There are 2 productions
+Copying: E->T.
+Copying: T->T.*F
+Before closure:
+Productions in  are : 
+
+
+
+Item 2 Symbol T
+There are 2 productions
+Copying: E->T.
+Copying: T->T.*F
+Before closure:
+Productions in  are : 
+
+
+
+Item 2 Symbol *
+There are 2 productions
+Copying: E->T.
+Copying: T->T.*F
+Before closure:
+Productions in  are : 
+T->T*.F
+Productions in I7 are : 
+T->T*.F
+F->.(E)
+F->.@
+This is I7
+
+
+Item 2 Symbol F
+There are 2 productions
+Copying: E->T.
+Copying: T->T.*F
+Before closure:
+Productions in  are : 
+
+
+
+Item 2 Symbol (
+There are 2 productions
+Copying: E->T.
+Copying: T->T.*F
+Before closure:
+Productions in  are : 
+
+
+
+Item 2 Symbol )
+There are 2 productions
+Copying: E->T.
+Copying: T->T.*F
+Before closure:
+Productions in  are : 
+
+
+
+Item 2 Symbol @
+There are 2 productions
+Copying: E->T.
+Copying: T->T.*F
+Before closure:
+Productions in  are : 
+
+
+
+Item 3 Symbol E
+There are 1 productions
+Copying: T->F.
+Before closure:
+Productions in  are : 
+
+
+
+Item 3 Symbol +
+There are 1 productions
+Copying: T->F.
+Before closure:
+Productions in  are : 
+
+
+
+Item 3 Symbol T
+There are 1 productions
+Copying: T->F.
+Before closure:
+Productions in  are : 
+
+
+
+Item 3 Symbol *
+There are 1 productions
+Copying: T->F.
+Before closure:
+Productions in  are : 
+
+
+
+Item 3 Symbol F
+There are 1 productions
+Copying: T->F.
+Before closure:
+Productions in  are : 
+
+
+
+Item 3 Symbol (
+There are 1 productions
+Copying: T->F.
+Before closure:
+Productions in  are : 
+
+
+
+Item 3 Symbol )
+There are 1 productions
+Copying: T->F.
+Before closure:
+Productions in  are : 
+
+
+
+Item 3 Symbol @
+There are 1 productions
+Copying: T->F.
+Before closure:
+Productions in  are : 
+
+
+
+Item 4 Symbol E
+There are 7 productions
+Copying: F->(.E)
+Copying: E->.E+T
+Copying: E->.T
+Copying: T->.T*F
+Copying: T->.F
+Copying: F->.(E)
+Copying: F->.@
+Before closure:
+Productions in  are : 
+F->(E.)
+E->E.+T
+Productions in I8 are : 
+F->(E.)
+E->E.+T
+This is I8
+
+
+Item 4 Symbol +
+There are 7 productions
+Copying: F->(.E)
+Copying: E->.E+T
+Copying: E->.T
+Copying: T->.T*F
+Copying: T->.F
+Copying: F->.(E)
+Copying: F->.@
+Before closure:
+Productions in  are : 
+
+
+
+Item 4 Symbol T
+There are 7 productions
+Copying: F->(.E)
+Copying: E->.E+T
+Copying: E->.T
+Copying: T->.T*F
+Copying: T->.F
+Copying: F->.(E)
+Copying: F->.@
+Before closure:
+Productions in  are : 
+E->T.
+T->T.*F
+
+
+
+Item 4 Symbol *
+There are 7 productions
+Copying: F->(.E)
+Copying: E->.E+T
+Copying: E->.T
+Copying: T->.T*F
+Copying: T->.F
+Copying: F->.(E)
+Copying: F->.@
+Before closure:
+Productions in  are : 
+
+
+
+Item 4 Symbol F
+There are 7 productions
+Copying: F->(.E)
+Copying: E->.E+T
+Copying: E->.T
+Copying: T->.T*F
+Copying: T->.F
+Copying: F->.(E)
+Copying: F->.@
+Before closure:
+Productions in  are : 
+T->F.
+
+
+
+Item 4 Symbol (
+There are 7 productions
+Copying: F->(.E)
+Copying: E->.E+T
+Copying: E->.T
+Copying: T->.T*F
+Copying: T->.F
+Copying: F->.(E)
+Copying: F->.@
+Before closure:
+Productions in  are : 
+F->(.E)
+
+
+
+Item 4 Symbol )
+There are 7 productions
+Copying: F->(.E)
+Copying: E->.E+T
+Copying: E->.T
+Copying: T->.T*F
+Copying: T->.F
+Copying: F->.(E)
+Copying: F->.@
+Before closure:
+Productions in  are : 
+
+
+
+Item 4 Symbol @
+There are 7 productions
+Copying: F->(.E)
+Copying: E->.E+T
+Copying: E->.T
+Copying: T->.T*F
+Copying: T->.F
+Copying: F->.(E)
+Copying: F->.@
+Before closure:
+Productions in  are : 
+F->@.
+
+
+
+Item 5 Symbol E
+There are 1 productions
+Copying: F->@.
+Before closure:
+Productions in  are : 
+
+
+
+Item 5 Symbol +
+There are 1 productions
+Copying: F->@.
+Before closure:
+Productions in  are : 
+
+
+
+Item 5 Symbol T
+There are 1 productions
+Copying: F->@.
+Before closure:
+Productions in  are : 
+
+
+
+Item 5 Symbol *
+There are 1 productions
+Copying: F->@.
+Before closure:
+Productions in  are : 
+
+
+
+Item 5 Symbol F
+There are 1 productions
+Copying: F->@.
+Before closure:
+Productions in  are : 
+
+
+
+Item 5 Symbol (
+There are 1 productions
+Copying: F->@.
+Before closure:
+Productions in  are : 
+
+
+
+Item 5 Symbol )
+There are 1 productions
+Copying: F->@.
+Before closure:
+Productions in  are : 
+
+
+
+Item 5 Symbol @
+There are 1 productions
+Copying: F->@.
+Before closure:
+Productions in  are : 
+
+
+
+Item 6 Symbol E
+There are 5 productions
+Copying: E->E+.T
+Copying: T->.T*F
+Copying: T->.F
+Copying: F->.(E)
+Copying: F->.@
+Before closure:
+Productions in  are : 
+
+
+
+Item 6 Symbol +
+There are 5 productions
+Copying: E->E+.T
+Copying: T->.T*F
+Copying: T->.F
+Copying: F->.(E)
+Copying: F->.@
+Before closure:
+Productions in  are : 
+
+
+
+Item 6 Symbol T
+There are 5 productions
+Copying: E->E+.T
+Copying: T->.T*F
+Copying: T->.F
+Copying: F->.(E)
+Copying: F->.@
+Before closure:
+Productions in  are : 
+E->E+T.
+T->T.*F
+Productions in I9 are : 
+E->E+T.
+T->T.*F
+This is I9
+
+
+Item 6 Symbol *
+There are 5 productions
+Copying: E->E+.T
+Copying: T->.T*F
+Copying: T->.F
+Copying: F->.(E)
+Copying: F->.@
+Before closure:
+Productions in  are : 
+
+
+
+Item 6 Symbol F
+There are 5 productions
+Copying: E->E+.T
+Copying: T->.T*F
+Copying: T->.F
+Copying: F->.(E)
+Copying: F->.@
+Before closure:
+Productions in  are : 
+T->F.
+
+
+
+Item 6 Symbol (
+There are 5 productions
+Copying: E->E+.T
+Copying: T->.T*F
+Copying: T->.F
+Copying: F->.(E)
+Copying: F->.@
+Before closure:
+Productions in  are : 
+F->(.E)
+
+
+
+Item 6 Symbol )
+There are 5 productions
+Copying: E->E+.T
+Copying: T->.T*F
+Copying: T->.F
+Copying: F->.(E)
+Copying: F->.@
+Before closure:
+Productions in  are : 
+
+
+
+Item 6 Symbol @
+There are 5 productions
+Copying: E->E+.T
+Copying: T->.T*F
+Copying: T->.F
+Copying: F->.(E)
+Copying: F->.@
+Before closure:
+Productions in  are : 
+F->@.
+
+
+
+Item 7 Symbol E
+There are 3 productions
+Copying: T->T*.F
+Copying: F->.(E)
+Copying: F->.@
+Before closure:
+Productions in  are : 
+
+
+
+Item 7 Symbol +
+There are 3 productions
+Copying: T->T*.F
+Copying: F->.(E)
+Copying: F->.@
+Before closure:
+Productions in  are : 
+
+
+
+Item 7 Symbol T
+There are 3 productions
+Copying: T->T*.F
+Copying: F->.(E)
+Copying: F->.@
+Before closure:
+Productions in  are : 
+
+
+
+Item 7 Symbol *
+There are 3 productions
+Copying: T->T*.F
+Copying: F->.(E)
+Copying: F->.@
+Before closure:
+Productions in  are : 
+
+
+
+Item 7 Symbol F
+There are 3 productions
+Copying: T->T*.F
+Copying: F->.(E)
+Copying: F->.@
+Before closure:
+Productions in  are : 
+T->T*F.
+Productions in I10 are : 
+T->T*F.
+This is I10
+
+
+Item 7 Symbol (
+There are 3 productions
+Copying: T->T*.F
+Copying: F->.(E)
+Copying: F->.@
+Before closure:
+Productions in  are : 
+F->(.E)
+
+
+
+Item 7 Symbol )
+There are 3 productions
+Copying: T->T*.F
+Copying: F->.(E)
+Copying: F->.@
+Before closure:
+Productions in  are : 
+
+
+
+Item 7 Symbol @
+There are 3 productions
+Copying: T->T*.F
+Copying: F->.(E)
+Copying: F->.@
+Before closure:
+Productions in  are : 
+F->@.
+
+
+
+Item 8 Symbol E
+There are 2 productions
+Copying: F->(E.)
+Copying: E->E.+T
+Before closure:
+Productions in  are : 
+
+
+
+Item 8 Symbol +
+There are 2 productions
+Copying: F->(E.)
+Copying: E->E.+T
+Before closure:
+Productions in  are : 
+E->E+.T
+Productions in I11 are : 
+E->E+.T
+This is I11
+
+
+Item 8 Symbol T
+There are 2 productions
+Copying: F->(E.)
+Copying: E->E.+T
+Before closure:
+Productions in  are : 
+
+
+
+Item 8 Symbol *
+There are 2 productions
+Copying: F->(E.)
+Copying: E->E.+T
+Before closure:
+Productions in  are : 
+
+
+
+Item 8 Symbol F
+There are 2 productions
+Copying: F->(E.)
+Copying: E->E.+T
+Before closure:
+Productions in  are : 
+
+
+
+Item 8 Symbol (
+There are 2 productions
+Copying: F->(E.)
+Copying: E->E.+T
+Before closure:
+Productions in  are : 
+
+
+
+Item 8 Symbol )
+There are 2 productions
+Copying: F->(E.)
+Copying: E->E.+T
+Before closure:
+Productions in  are : 
+F->(E).
+Productions in I12 are : 
+F->(E).
+This is I12
+
+
+Item 8 Symbol @
+There are 2 productions
+Copying: F->(E.)
+Copying: E->E.+T
+Before closure:
+Productions in  are : 
+
+
+
+Item 9 Symbol E
+There are 2 productions
+Copying: E->E+T.
+Copying: T->T.*F
+Before closure:
+Productions in  are : 
+
+
+
+Item 9 Symbol +
+There are 2 productions
+Copying: E->E+T.
+Copying: T->T.*F
+Before closure:
+Productions in  are : 
+
+
+
+Item 9 Symbol T
+There are 2 productions
+Copying: E->E+T.
+Copying: T->T.*F
+Before closure:
+Productions in  are : 
+
+
+
+Item 9 Symbol *
+There are 2 productions
+Copying: E->E+T.
+Copying: T->T.*F
+Before closure:
+Productions in  are : 
+T->T*.F
+
+
+
+Item 9 Symbol F
+There are 2 productions
+Copying: E->E+T.
+Copying: T->T.*F
+Before closure:
+Productions in  are : 
+
+
+
+Item 9 Symbol (
+There are 2 productions
+Copying: E->E+T.
+Copying: T->T.*F
+Before closure:
+Productions in  are : 
+
+
+
+Item 9 Symbol )
+There are 2 productions
+Copying: E->E+T.
+Copying: T->T.*F
+Before closure:
+Productions in  are : 
+
+
+
+Item 9 Symbol @
+There are 2 productions
+Copying: E->E+T.
+Copying: T->T.*F
+Before closure:
+Productions in  are : 
+
+
+
+Item 10 Symbol E
+There are 1 productions
+Copying: T->T*F.
+Before closure:
+Productions in  are : 
+
+
+
+Item 10 Symbol +
+There are 1 productions
+Copying: T->T*F.
+Before closure:
+Productions in  are : 
+
+
+
+Item 10 Symbol T
+There are 1 productions
+Copying: T->T*F.
+Before closure:
+Productions in  are : 
+
+
+
+Item 10 Symbol *
+There are 1 productions
+Copying: T->T*F.
+Before closure:
+Productions in  are : 
+
+
+
+Item 10 Symbol F
+There are 1 productions
+Copying: T->T*F.
+Before closure:
+Productions in  are : 
+
+
+
+Item 10 Symbol (
+There are 1 productions
+Copying: T->T*F.
+Before closure:
+Productions in  are : 
+
+
+
+Item 10 Symbol )
+There are 1 productions
+Copying: T->T*F.
+Before closure:
+Productions in  are : 
+
+
+
+Item 10 Symbol @
+There are 1 productions
+Copying: T->T*F.
+Before closure:
+Productions in  are : 
+
+
+
+Item 11 Symbol E
+There are 1 productions
+Copying: E->E+.T
+Before closure:
+Productions in  are : 
+
+
+
+Item 11 Symbol +
+There are 1 productions
+Copying: E->E+.T
+Before closure:
+Productions in  are : 
+
+
+
+Item 11 Symbol T
+There are 1 productions
+Copying: E->E+.T
+Before closure:
+Productions in  are : 
+E->E+T.
+Productions in I13 are : 
+E->E+T.
+This is I13
+
+
+Item 11 Symbol *
+There are 1 productions
+Copying: E->E+.T
+Before closure:
+Productions in  are : 
+
+
+
+Item 11 Symbol F
+There are 1 productions
+Copying: E->E+.T
+Before closure:
+Productions in  are : 
+
+
+
+Item 11 Symbol (
+There are 1 productions
+Copying: E->E+.T
+Before closure:
+Productions in  are : 
+
+
+
+Item 11 Symbol )
+There are 1 productions
+Copying: E->E+.T
+Before closure:
+Productions in  are : 
+
+
+
+Item 11 Symbol @
+There are 1 productions
+Copying: E->E+.T
+Before closure:
+Productions in  are : 
+
+
+
+Item 12 Symbol E
+There are 1 productions
+Copying: F->(E).
+Before closure:
+Productions in  are : 
+
+
+
+Item 12 Symbol +
+There are 1 productions
+Copying: F->(E).
+Before closure:
+Productions in  are : 
+
+
+
+Item 12 Symbol T
+There are 1 productions
+Copying: F->(E).
+Before closure:
+Productions in  are : 
+
+
+
+Item 12 Symbol *
+There are 1 productions
+Copying: F->(E).
+Before closure:
+Productions in  are : 
+
+
+
+Item 12 Symbol F
+There are 1 productions
+Copying: F->(E).
+Before closure:
+Productions in  are : 
+
+
+
+Item 12 Symbol (
+There are 1 productions
+Copying: F->(E).
+Before closure:
+Productions in  are : 
+
+
+
+Item 12 Symbol )
+There are 1 productions
+Copying: F->(E).
+Before closure:
+Productions in  are : 
+
+
+
+Item 12 Symbol @
+There are 1 productions
+Copying: F->(E).
+Before closure:
+Productions in  are : 
+
+
+
+Item 13 Symbol E
+There are 1 productions
+Copying: E->E+T.
+Before closure:
+Productions in  are : 
+
+
+
+Item 13 Symbol +
+There are 1 productions
+Copying: E->E+T.
+Before closure:
+Productions in  are : 
+
+
+
+Item 13 Symbol T
+There are 1 productions
+Copying: E->E+T.
+Before closure:
+Productions in  are : 
+
+
+
+Item 13 Symbol *
+There are 1 productions
+Copying: E->E+T.
+Before closure:
+Productions in  are : 
+
+
+
+Item 13 Symbol F
+There are 1 productions
+Copying: E->E+T.
+Before closure:
+Productions in  are : 
+
+
+
+Item 13 Symbol (
+There are 1 productions
+Copying: E->E+T.
+Before closure:
+Productions in  are : 
+
+
+
+Item 13 Symbol )
+There are 1 productions
+Copying: E->E+T.
+Before closure:
+Productions in  are : 
+
+
+
+Item 13 Symbol @
+There are 1 productions
+Copying: E->E+T.
+Before closure:
+Productions in  are : 
+
+
+Value of item_count : 14
+Productions in I0 are : 
+E->.E+T
+E->.T
+T->.T*F
+T->.F
+F->.(E)
+F->.@
+Productions in I1 are : 
+E->E.+T
+Productions in I2 are : 
+E->T.
+T->T.*F
+Productions in I3 are : 
+T->F.
+Productions in I4 are : 
+F->(.E)
+E->.E+T
+E->.T
+T->.T*F
+T->.F
+F->.(E)
+F->.@
+Productions in I5 are : 
+F->@.
+Productions in I6 are : 
+E->E+.T
+T->.T*F
+T->.F
+F->.(E)
+F->.@
+Productions in I7 are : 
+T->T*.F
+F->.(E)
+F->.@
+Productions in I8 are : 
+F->(E.)
+E->E.+T
+Productions in I9 are : 
+E->E+T.
+T->T.*F
+Productions in I10 are : 
+T->T*F.
+Productions in I11 are : 
+E->E+.T
+Productions in I12 are : 
+F->(E).
+Productions in I13 are : 
+E->E+T.

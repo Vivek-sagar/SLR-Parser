@@ -1,0 +1,45 @@
+15:44:07 **** Incremental Build of configuration Debug for project outputter ****
+make all 
+Building file: ../src/outputter.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/outputter.d" -MT"src/outputter.d" -o "src/outputter.o" "../src/outputter.cpp"
+Finished building: ../src/outputter.cpp
+ 
+Building target: outputter
+Invoking: GCC C++ Linker
+g++  -o "outputter"  ./src/outputter.o   
+Finished building target: outputter
+ 
+15:44:08 **** Incremental Build of configuration Debug for project outputter ****
+make all 
+make: Nothing to be done for `all'.
+15:44:47 **** Incremental Build of configuration Debug for project plt ****
+make all 
+make: Nothing to be done for `all'.
+15:47:43 **** Incremental Build of configuration Debug for project plt ****
+make all 
+make: Nothing to be done for `all'.
+15:48:46 **** Incremental Build of configuration Debug for project plt ****
+make all 
+make: Nothing to be done for `all'.
+15:49:37 **** Incremental Build of configuration Debug for project plt ****
+make all 
+make: Nothing to be done for `all'.
+18:57:34 **** Incremental Build of configuration Debug for project plt ****
+make all 
+make: Nothing to be done for `all'.
+18:58:20 **** Incremental Build of configuration Debug for project plt ****
+make all 
+make: Nothing to be done for `all'.
+18:58:49 **** Incremental Build of configuration Debug for project plt ****
+make all 
+make: Nothing to be done for `all'.
+18:58:58 **** Incremental Build of configuration Debug for project plt ****
+make all 
+make: Nothing to be done for `all'.
+18:59:07 **** Incremental Build of configuration Debug for project plt ****
+make all 
+make: Nothing to be done for `all'.
+19:00:32 **** Incremental Build of configuration Debug for project plt ****
+make all 
+make: Nothing to be done for `all'.
