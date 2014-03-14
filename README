@@ -1,0 +1,19 @@
+#########################################################################
+PARALLEL SIMPLE LR PARSER
+Implementation by Vivek v
+#########################################################################
+
+This is a standard SLR parser implemented using OpenMP
+
+input.txt contains a simple set of production rules.
+
+input2.txt contains a slightly more complicated production rule set.
+
+Parser3.cpp Contains a serial implementation of the parser.
+
+Parser3parallel.cpp Contains almost the same code as above, but with 
+parallelization. The parallelization is far from perfect, but does provide
+a small improvement in performance.
+
+The rest of the files are just different versions of the program, and
+don't serve any purpose for the final program.
